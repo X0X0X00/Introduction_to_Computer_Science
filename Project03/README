@@ -1,1 +1,30 @@
+Zhenhao zhang
+32277234
+zzh133@u.rochester.edu
 
+Tony Ling
+32249392
+tling@u.rochester.edu
+
+Our project is aircraft war. When you click the start, the game will start. In this game, the player will control
+the Hero to beat enemies. The more enemies killed, the more points the player will get. A mouse listener controls
+the Aircraft. The Hero will automatically shoot the bullet and kill the enemies. Stars are rewards. In the Hero
+shoots the Star, it could add one more life or improve the weapon to two bullets. When the Hero collides with
+enemies or stars, he will lose one life. The game will be paused when the mouse moves out of the window.
+When the Hero loses all lives, the game will be over. When you click the game over again, the game will restart.
+
+The class, Aircraft, extends FlayingObjects. It builds the enemies. It defined the position and movement of enemy
+flys. When the bullet hits the enemies, they will disappear and add 1 point.
+The class, bullet, defined the bullets' speed and position.
+The class, the Hero, described the image of the Hero and its animation of it. Also, initialized the position, life,
+and fire of the Hero. And it has a shoot function to determine the shooting method (double fire or single fire).
+Also, it has a check function to determine whether the Hero collides with enemies.
+The class, Star, defined the image of the Star. It randomly determines the position of the Star and the award type.
+The main class is called GameMain. This class will run the game. In this class, it initialized the canvas and set
+the background. And this class input the images. This class will paint the score and the life in the top left
+corner. And this class sets images(start, pause, and game over) position. Also, the game will automatically pause
+when the mouse is out of the window. Then, it will paint the Hero, stars, enemies, and bullets on the canvas.
+When you click the start, the game will start.
+
+Our flourish is Non-stationary objects, like clouds, spaceships, or twirling stars, that score extra points
+(and vanish) if hit by the drone.
