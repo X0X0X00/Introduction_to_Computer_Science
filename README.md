@@ -1,2 +1,2 @@
-# CSC171
+# CSC171 Introduction to Computer Science
 Lab and Project
